@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "esnext"],
+    "baseUrl": "./src/",
+    "paths": {
+      "components/*": ["components/*"],
+      "utils/*": ["utils/*"],
+      "helpers/*": ["helpers/*"],
+      "images/*": ["images/*"],
+      "tests/*": ["tests/*"],
+      "hooks/*": ["hooks/*"],
+      "icons/*": ["icons/*"],
+      "types/*": ["types/*"]
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "outDir": "./dist",
+    "declaration": true
+  },
+  "include": ["./src/**/*", "src/utils/typings.d.ts"],
+  "skipLibCheck": true
+}
